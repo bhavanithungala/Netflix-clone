@@ -1,9 +1,7 @@
-import "./App.css";
+import Main from "./components/Main";
 
 const App = () => {
-  return (
-    <div className="text-2xl fon-bold underline">Let's Build Netflix-GPT</div>
-  );
+  return <Main />;
 };
 
 export default App;
